@@ -76,7 +76,7 @@ Settings → Secrets → Actions как `SSH_PRIVATE_KEY`.
 
 В `mkdocs.yml` в самом начале файла можете сменить `site_name: My Docs` на необходимое.
 
-Далее необходимо файл `workflow.yml` для CI/DI переместить в `.github/workflows/workflow.yml`, чтобы Github Action понимал что ему необходимо делать.
+Далее необходимо файл `workflow.yml` для CI/DI переместить в `.github/workflows/workflow.yml`, чтобы Github Action понимал что ему необходимо делать. Файл `github_pages.yml` можно удалить.
 
 После запушить в ветку `main`, CI/DI настроен на деплой после пуша в `main`:
 
